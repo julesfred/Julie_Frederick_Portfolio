@@ -10,10 +10,10 @@
             })
             .when("/about", {
                 template: `
-                
+                <h2>About.</h2>
                 `
             })
-            .when("/contact", {
+            .when("/resume", {
                 template: `
                 
                 `

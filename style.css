@@ -23,6 +23,7 @@
     height: 200px;
     display: flex;
     font-family: 'Comfortaa', cursive;
+
 }
 
 .cube div:hover{
@@ -93,16 +94,18 @@
 
 
 .menu{
+    position: relative;
+}
+.menuwrap{
     display: flex;
     flex-direction: row;
-    position: relative;
-    justify-content: flex-end;
-    margin-right: 11%;
-    margin-top: -3%;
+    position: absolute;
+    top: 75%;
+    left: -467px;
 }
 
-.menu a {
-    padding-right: 41px;
+.menuwrap a {
+    padding-right: 43px;
     color: rgba(243, 52, 52, 0.8);
     font-family: 'Comfortaa', cursive;
     font-size: 20px;
@@ -111,5 +114,11 @@
 
 a:hover {
     color: rgba(52, 221, 243, 0.8);
+}
+
+h2{
+    font-size: 55px;
+    font-family: 'Comfortaa', cursive;
+    margin-left: 14%;
 }
 
