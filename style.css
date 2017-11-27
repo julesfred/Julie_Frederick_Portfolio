@@ -250,3 +250,43 @@ p{
       -ms-transform:  translate(-10px,0px)  ;
     }
   }
+
+
+.footerClass{
+    font-size: 16px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.footerWrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: flex;
+    position: relative;
+}
+
+.imageWrap{
+    position: absolute;
+    right: 12%;
+}
+
+.linkedIn:hover{
+    content: url("images/linkedInRed.png");
+}
+
+.gitHub:hover{
+    content: url("images/gitHubRed.png");
+}
+
+@media screen and (max-width: 480px){
+    .firstName{
+        font-size:24px;
+    }
+    .lastName{
+        font-size:24px;
+    }
+    
+}
