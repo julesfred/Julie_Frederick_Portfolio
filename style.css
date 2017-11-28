@@ -266,6 +266,7 @@ img{
     flex-direction: row;
     flex-wrap: flex;
     position: relative;
+    bottom: 0;
 }
 
 .imageWrap{
@@ -279,6 +280,10 @@ img{
 
 .gitHub:hover{
     content: url("images/gitHubRed.png");
+}
+
+.intro {
+    text-align: center;
 }
 
 @media screen and (max-width: 480px){
