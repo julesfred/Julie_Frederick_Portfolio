@@ -5,7 +5,9 @@
             $routeProvider
             .when("/home", {
                 template:`
+                <hr class="slideIn">
                 <p class="intro">After years of hosting radio talk shows, creating cinimatic content, and serving delicious soft-served ice cream, it was time to fullfill my dream into a reality. Now here I am with my own web-portofolio! I would love to welcome you to my site where you will discover my passion for web development and design. Enjoy!</p>
+                <hr class="slideIn">
                 `,
             })
             .when("/about", {
