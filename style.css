@@ -403,6 +403,24 @@ footer{
     }
   }
 
+.portrait {
+  height: 400px;
+  width: 400px;
+}
+
+
+#paraSize{
+  font-size: 30px;
+  font-family: 'Comfortaa', cursive;
+  margin-left: 14%;
+  margin-right: 1%;
+}
+
+.portraitWrap{
+    display: flex;
+    width: 89%;
+}
+
 
 @media screen and (max-width: 480px){
     .firstName{
